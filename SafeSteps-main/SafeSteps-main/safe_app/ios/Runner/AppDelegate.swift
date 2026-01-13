@@ -9,7 +9,7 @@ import GoogleMaps
     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
   ) -> Bool {
     // Initialize Google Maps before Flutter engine
-    GMSServices.provideAPIKey("AIzaSyCroP5ArTzF4g5GmZdr7ml9KDlRviEQfbE")
+    GMSServices.provideAPIKey("GEMINI_API_KEY")
     _ = GMSServices.sharedServices() // Force initialization
     
     GeneratedPluginRegistrant.register(with: self)
