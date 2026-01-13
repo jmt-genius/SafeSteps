@@ -47,7 +47,7 @@ class _ChatbotPageState extends State<ChatbotPage> {
     super.initState();
     // Initialize with your Gemini API key
     _chatController = ChatController(
-      apiKey: 'AIzaSyAoCbiZtu8nlJjhyVT5jIIq3OIxy2oRxAs',
+      apiKey: 'GEMINI_API_KEY',
     );
   }
 
